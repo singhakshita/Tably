@@ -1,0 +1,27 @@
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+h4{
+    text-align: center;
+    color: firebrick;
+}
+body{
+  height: 200px;
+  width:  300px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+  
+}
+.list-group{
+  overflow: scroll;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+.link{
+}
+

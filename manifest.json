@@ -1,0 +1,19 @@
+{
+    "name": "Tably",
+    "version": "1.0",
+    "description": "Just 1 active site at a time",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions" : [
+        "tabs",
+        "storage"
+    ]
+  }
